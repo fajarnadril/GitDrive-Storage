@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fajar · AR/VR Lead · Portfolio</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    body { background: #f5f5f5; }
+    .card { background: #ffffff; border-radius: 1.25rem; box-shadow: 0 4px 12px rgba(0,0,0,0.02), 0 1px 3px rgba(0,0,0,0.03); }
+    .badge { background: #eaeaea; color: #1f1f1f; padding: 0.25rem 0.9rem; border-radius: 999px; font-size: 0.75rem; font-weight: 500; }
+    .table-wrap { overflow-x: auto; }
+    .section-title { font-weight: 600; letter-spacing: -0.01em; color: #111; }
+    .table-project-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 0.75rem; border: 1px solid #ddd; background: #f0f0f0; }
+    .under-construction {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #ffffff;
+      border-radius: 1.25rem;
+      border: 1px dashed #bbb;
+      color: #555;
+      font-size: 1.25rem;
+      letter-spacing: 0.05em;
+    }
+    .under-construction i {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased text-gray-800 px-4 md:px-8 py-6 max-w-6xl mx-auto">
+
+  <!-- ========== HEADER ========== -->
+  <header class="mb-8 flex flex-col md:flex-row md:items-center md:justify-between border-b border-gray-200/70 pb-6">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-black">Hi, I'm Fajar 👋</h1>
+      <p class="text-base md:text-lg text-gray-600 mt-1">AR/VR · Technical Lead · Researcher</p>
+    </div>
+    <div class="mt-4 md:mt-0 flex flex-wrap items-center gap-3 text-black/80">
+      <a href="mailto:muhamad.fajar@binus.ac.id" class="flex items-center gap-2 text-base font-medium hover:text-black transition">
+        <i class="fas fa-envelope"></i> muhamad.fajar@binus.ac.id
+      </a>
+      <span class="text-gray-300 hidden md:inline">|</span>
+      <div class="flex gap-3 text-lg">
+        <a href="#" class="hover:text-black"><i class="fab fa-github"></i></a>
+        <a href="#" class="hover:text-black"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="hover:text-black"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== ABOUT (based on CV, professional, B&W) ========== -->
+  <section class="card p-6 md:p-8 mb-10 border border-gray-200/50">
+    <div class="flex items-start gap-3">
+      <span class="text-2xl text-black/70 mt-1"><i class="fas fa-user-graduate"></i></span>
+      <div>
+        <h2 class="text-xl font-semibold text-black flex items-center gap-2">
+          <span>📌 About</span>
+        </h2>
+        <div class="text-gray-700 leading-relaxed space-y-3 mt-1 max-w-4xl">
+          <p>
+            Award-winning AR/VR Developer and Technical Lead specializing in digital transformation through Augmented and Virtual Reality (AR/VR) and Artificial Intelligence. 
+            Holds a Master of Computer Science, bridging academic innovation and commercial-scale implementation.
+          </p>
+          <p>
+            Technical leadership demonstrated by <strong>Shevia Fire</strong> – a VR application that earned a <strong>Top 3 ASEAN Digital Award 2025</strong>, 
+            originating from international publications and thesis research. Delivered AR/VR solutions that saved corporations hundreds of millions of IDR 
+            in operational costs, while contributing to high-impact research.
+          </p>
+          <p class="flex flex-wrap gap-2 mt-2">
+            <span class="badge">Unity · C#</span>
+            <span class="badge">Generative AI</span>
+            <span class="badge">XR (Meta Quest, ARKit)</span>
+            <span class="badge">Technical Mentorship</span>
+            <span class="badge">Instructional Design</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED PROJECTS ========== -->
+  <h3 class="section-title text-2xl mt-10 mb-4 flex items-center gap-2 border-b border-gray-200/60 pb-2">
+    <i class="fas fa-code text-black/70"></i> Featured projects
+  </h3>
+
+  <!-- Row 1: Project Stir & Hopeless -->
+  <div class="table-wrap rounded-2xl border border-gray-200/60 bg-white/80 shadow-sm overflow-hidden mb-6">
+    <table class="w-full text-sm md:text-base border-collapse">
+      <thead class="bg-gray-50/80 text-gray-700">
+        <tr>
+          <th class="w-1/2 py-3 px-4 text-left font-semibold border-b border-gray-200"><span class="text-black">Project Stir</span></th>
+          <th class="w-1/2 py-3 px-4 text-left font-semibold border-b border-gray-200"><span class="text-black">Hopeless</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="py-2 px-2 md:px-4 align-top">
+            <img src="https://img.itch.zone/aW1hZ2UvMjk3MDYzNC8yMjY5NjI3NS5wbmc=/794x1000/uuxcDk.png" alt="Project Stir" class="table-project-img" />
+          </td>
+          <td class="py-2 px-2 md:px-4 align-top">
+            <img src="https://img.itch.zone/aW1hZ2UvMjYxMzc4LzEyNzEyNTguanBn/original/BKa76R.jpg" alt="Hopeless" class="table-project-img" />
+          </td>
+        </tr>
+        <tr>
+          <td class="px-2 md:px-4 py-3 text-gray-700 leading-relaxed align-top text-sm md:text-base">
+            <span class="font-semibold text-black">ProjectStir</span> [Pre-Alpha] – driving simulation to assess skills. 
+            Project lead &amp; game designer. Completed in &lt;2 days for BINUS event. 
+            <span class="block mt-1 text-xs text-gray-500">Scopus-indexed publication.</span>
+          </td>
+          <td class="px-2 md:px-4 py-3 text-gray-700 leading-relaxed align-top text-sm md:text-base">
+            <span class="font-semibold text-black">Hopeless</span> – side-scroller (Cat Mario × Limbo style). 
+            Teaching material for Unity basics. Core mechanics built in &lt;1 day.
+          </td>
+        </tr>
+        <tr>
+          <td class="px-2 md:px-4 py-3 align-middle">
+            <div class="flex flex-wrap items-center gap-3">
+              <a href="#" class="text-black/80 hover:text-black font-medium"><i class="fas fa-book-open mr-1"></i>Read More</a>
+              <a href="#" class="text-black/70 hover:text-black"><i class="fas fa-play-circle mr-1"></i>Trailer</a>
+            </div>
+          </td>
+          <td class="px-2 md:px-4 py-3 align-middle">
+            <div class="flex flex-wrap items-center gap-3">
+              <a href="#" class="text-black/80 hover:text-black font-medium"><i class="fas fa-book-open mr-1"></i>Read More</a>
+              <a href="#" class="text-black/70 hover:text-black"><i class="fas fa-play-circle mr-1"></i>Trailer</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Row 2: Shevia Fire VR & Shevia AR -->
+  <div class="table-wrap rounded-2xl border border-gray-200/60 bg-white/80 shadow-sm overflow-hidden">
+    <table class="w-full text-sm md:text-base border-collapse">
+      <thead class="bg-gray-50/80 text-gray-700">
+        <tr>
+          <th class="w-1/2 py-3 px-4 text-left font-semibold border-b border-gray-200"><span class="text-black">Shevia Fire VR</span></th>
+          <th class="w-1/2 py-3 px-4 text-left font-semibold border-b border-gray-200"><span class="text-black">Shevia AR</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="py-2 px-2 md:px-4 align-top">
+            <img src="https://daltek.id/wp-content/uploads/2025/09/VR-Fire-Simulation-Hero.webp" alt="Shevia Fire VR" class="table-project-img" />
+          </td>
+          <td class="py-2 px-2 md:px-4 align-top">
+            <img src="https://daltek.id/wp-content/uploads/2025/09/S-AR-3.webp" alt="Shevia AR" class="table-project-img" />
+          </td>
+        </tr>
+        <tr>
+          <td class="px-2 md:px-4 py-3 text-gray-700 leading-relaxed align-top text-sm md:text-base">
+            <span class="font-semibold text-black">Shevia Fire</span> – VR safety training (Meta Quest 3). 
+            Fire blanket, indoor/outdoor scenarios. Project Lead, &lt;2 months. 
+            <span class="block mt-1 text-xs text-gray-500">🏆 ASEAN Digital Award 2025 · Top 3 KOMINFO 2023</span>
+          </td>
+          <td class="px-2 md:px-4 py-3 text-gray-700 leading-relaxed align-top text-sm md:text-base">
+            <span class="font-semibold text-black">Shevia AR</span> – AR safety induction with 3D viewer &amp; audio. 
+            Unity programmer, main mechanics in &lt;5 days. Used by Pertamina Group.
+          </td>
+        </tr>
+        <tr>
+          <td class="px-2 md:px-4 py-3 align-middle">
+            <div class="flex flex-wrap items-center gap-3">
+              <a href="#" class="text-black/80 hover:text-black font-medium"><i class="fas fa-book-open mr-1"></i>Read More</a>
+              <a href="#" class="text-black/70 hover:text-black"><i class="fas fa-play-circle mr-1"></i>Trailer</a>
+            </div>
+          </td>
+          <td class="px-2 md:px-4 py-3 align-middle">
+            <div class="flex flex-wrap items-center gap-3">
+              <a href="#" class="text-black/80 hover:text-black font-medium"><i class="fas fa-book-open mr-1"></i>Read More</a>
+              <a href="#" class="text-black/70 hover:text-black"><i class="fas fa-play-circle mr-1"></i>Trailer</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ========== UNDER CONSTRUCTION ========== -->
+  <div class="under-construction mt-12">
+    <i class="fas fa-hard-hat"></i>
+    <span class="font-medium">Under Construction</span>
+    <p class="text-sm text-gray-400 mt-1 font-normal">More content coming soon — experience, education, and achievements will be added.</p>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="mt-10 pt-6 border-t border-gray-200/70 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+    <div>
+      <span class="font-medium text-black">📩</span>
+      <a href="mailto:muhamad.fajar@binus.ac.id" class="text-black/80 hover:text-black">muhamad.fajar@binus.ac.id</a>
+      <span class="mx-3 hidden md:inline">·</span>
+      <span class="block md:inline">📍 Jakarta / Bandung</span>
+    </div>
+    <div class="flex items-center gap-4 mt-2 md:mt-0">
+      <a href="#" class="text-black/60 hover:text-black"><i class="fab fa-github fa-lg"></i></a>
+      <a href="#" class="text-black/60 hover:text-black"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="#" class="text-black/60 hover:text-black"><i class="fab fa-youtube fa-lg"></i></a>
+      <span class="text-gray-300">|</span>
+      <span class="text-gray-400 text-xs">© 2025 Fajarnadril</span>
+    </div>
+  </footer>
+  <div class="text-[10px] text-gray-300 text-center mt-3 opacity-40">tailwind · b&amp;w portfolio</div>
+
+</body>
+</html>
